@@ -1,0 +1,12 @@
+{
+	"name": "github-contrib-calendar-workers-rust",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "npx wrangler deploy",
+		"dev": "npx wrangler dev --env dev"
+	},
+	"devDependencies": {
+		"wrangler": "^3.1.2"
+	}
+}

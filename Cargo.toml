@@ -1,0 +1,22 @@
+[package]
+name = "github-contrib-calendar-workers-rust"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+reqwest = "0.12.5"
+scraper = "0.19.0"
+worker = "0.3.0"
+rand = "0.8.5"
+getrandom = { version = "0.2", features = ["js"] }
+serde = "1.0.204"
+serde_json = "1.0.120"
+
+[profile.release]
+opt-level = "s" # optimize for size in release builds
+lto = true
+strip = true
+codegen-units = 1
