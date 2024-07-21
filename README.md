@@ -11,7 +11,7 @@ This project obtains the github calendar in html and the number of contributions
 }
 ```
 
-## Implementacion 
+## Implementation 
 
 Here [Frontend Implementation](https://github.com/StkngEsk/github-contrib-calendar-astro)
 
